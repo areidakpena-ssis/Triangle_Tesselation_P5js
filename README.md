@@ -11,4 +11,4 @@ Here you will make contributions to the code in the following way:
 
 
 Here is the image that we will be creating. Decide with your classmates which color triangles you will produce.
-![triangles](https://github.com/areidakpena-ssis/Triangle_Tesselation_P5js/assets/153045302/15f6fd39-3e77-4ecb-8988-f1e146c43e39)
+![Triangles](https://github.com/areidakpena-ssis/Triangle_Tesselation_P5js/assets/153045302/c4b12845-4e2b-4361-adee-f4352af8a239)
