@@ -22,7 +22,7 @@ function draw() {
   // magenta triangles
   fill(255, 0, 255)
   for(var i = 0; i < 5; i++){
-   triangle(0*TRIANGLE_WIDTH, i*TRIANGLE_HEIGHT, 1*TRIANGLE_WIDTH, i*TRIANGLE_HEIGHT,1*TRIANGLE_WIDTH, (i+1) * TRIANGLE_HEIGHT
+   triangle(0*TRIANGLE_WIDTH, i*TRIANGLE_HEIGHT, 1*TRIANGLE_WIDTH, i*TRIANGLE_HEIGHT,1*TRIANGLE_WIDTH, (i+1) * TRIANGLE_HEIGHT)
  }
             
   // code for cyan triangles
