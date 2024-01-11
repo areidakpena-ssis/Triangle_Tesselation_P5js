@@ -11,6 +11,7 @@ function setup() {
 
 function draw() {
   background(220)
-  // code for triangle tesselation goes here
-  
+  for(var i = 0; i < 6; i++)
+    triangle(TRIANGLE_WIDTH*2, i*TRIANGLE_HEIGHT, 3*TRIANGLE_WIDTH, i*TRIANGLE_HEIGHT, 3*TRIANGLE_WIDTH, (i+1)*TRIANGLE_HEIGHT)
+    fill(255,0,0)
 }
