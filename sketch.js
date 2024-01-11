@@ -7,11 +7,10 @@ function setup() {
   // set triangle dimensions
   TRIANGLE_WIDTH = CANVAS_WIDTH / 3
   TRIANGLE_HEIGHT = CANVAS_HEIGHT / 5
-  
-  
 }
 
 function draw() {
   background(220)
   // code for triangle tesselation goes here
+  
 }
