@@ -12,8 +12,16 @@ function setup() {
 function draw() {
   background(220)
   // code for triangle tesselation goes here
+
+  // code for cyan triangles
   fill(0,255,255)
   for (var i = 0; i < 5; i++)
   triangle(0, i*TRIANGLE_HEIGHT, 0, (i+1)*TRIANGLE_HEIGHT, TRIANGLE_WIDTH, (i+1) * TRIANGLE_HEIGHT)
+
+  //Code for yellow triangles
+  fill(255, 255, 0)
+  for (let i = 0; i < CANVAS_HEIGHT/TRIANGLE_HEIGHT; i++) {
+    triangle(TRIANGLE_WIDTH, TRIANGLE_HEIGHT*i, 2*TRIANGLE_WIDTH, TRIANGLE_HEIGHT*i, TRIANGLE_WIDTH*2, TRIANGLE_HEIGHT*(i+1));
+  }
 }
 
