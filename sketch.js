@@ -16,7 +16,7 @@ function draw() {
  
 
   // code for triangle tesselation goes here
-  
+fill("lime")
 for (let i = 0; i < 5; i++){
   y1 = i * TRIANGLE_HEIGHT
   x1 = 200
@@ -28,7 +28,7 @@ for (let i = 0; i < 5; i++){
   x3 = x1 + TRIANGLE_WIDTH
 
   triangle (x1,y1,x2,y2,x3,y3)
-  fill("lime")
+  
   }
   
   // code for dark blue
