@@ -7,10 +7,16 @@ function setup() {
   // set triangle dimensions
   TRIANGLE_WIDTH = CANVAS_WIDTH / 3
   TRIANGLE_HEIGHT = CANVAS_HEIGHT / 5
+  
+  fill(255, 0, 255)
+
 }
 
 function draw() {
   background(220)
-  // code for triangle tesselation goes here
+ for(var i = 0; i < 5; i++){
+   triangle(0*TRIANGLE_WIDTH, i*TRIANGLE_HEIGHT, 1*TRIANGLE_WIDTH, i*TRIANGLE_HEIGHT,1*TRIANGLE_WIDTH, (i+1) * TRIANGLE_HEIGHT)
+   
+ }
   
 }
