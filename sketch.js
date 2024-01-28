@@ -7,9 +7,8 @@ function setup() {
   // set triangle dimensions
   TRIANGLE_WIDTH = CANVAS_WIDTH / 3
   TRIANGLE_HEIGHT = CANVAS_HEIGHT / 5
-  
-
 }
+
 
 function draw() {
   background(220)
@@ -17,23 +16,21 @@ function draw() {
   for(var i = 0; i < 6; i++)
     triangle(TRIANGLE_WIDTH*2, i*TRIANGLE_HEIGHT, 3*TRIANGLE_WIDTH, i*TRIANGLE_HEIGHT, 3*TRIANGLE_WIDTH, (i+1)*TRIANGLE_HEIGHT)
 
- 
-
   // code for triangle tesselation goes here
-fill("lime")
-for (let i = 0; i < 5; i++){
-  y1 = i * TRIANGLE_HEIGHT
-  x1 = 200
+  // Lime green triangles
+  fill("lime")
+  for (let i = 0; i < 5; i++){
+    y1 = i * TRIANGLE_HEIGHT
+    x1 = 200
+    
+    y2 = y1 + TRIANGLE_HEIGHT
+    x2 = x1
   
-  y2 = y1 + TRIANGLE_HEIGHT
-  x2 = x1
-
-  y3 = y1 + TRIANGLE_HEIGHT
-  x3 = x1 + TRIANGLE_WIDTH
-
-  triangle (x1,y1,x2,y2,x3,y3)
+    y3 = y1 + TRIANGLE_HEIGHT
+    x3 = x1 + TRIANGLE_WIDTH
   
-  }
+    triangle (x1,y1,x2,y2,x3,y3)
+    }
   
   // code for dark blue
   fill(0, 0, 255)
